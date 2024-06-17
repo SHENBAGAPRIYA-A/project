@@ -1,0 +1,121 @@
+
+/* Set a background image for the body */
+body {
+  background-color: rgb(230, 235, 235);
+}
+
+.circle-container {
+  width: 200px;
+  height: 200px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the circle horizontally */
+}
+
+.circle-text {
+  color: rgb(27, 27, 27);
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 0; /* Remove default margin */
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(230, 235, 235);
+  margin-left: 400px;
+  margin-right: 400px;
+  
+}
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(230, 235, 235);
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.pagination-item {
+  display: flex;
+  align-items: center;
+}
+.search-container {
+
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-input {
+  text-align: center;
+  background-color: rgb(252, 199, 102);
+  width: 200px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #cccccc;
+}
+.dropdown-container {
+  
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: rgb(230, 235, 235);
+  border-radius: 5px;
+  
+  color: black;
+  cursor: pointer;
+}
+
+
+.month-dropdown {
+  background-color: rgb(253, 177, 37);
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+table {
+  
+  margin-top: 50px;
+  margin-left: 400px;
+  border-collapse: separate; 
+  border-spacing: 0;
+  width: 50%;
+  border-radius: 15px;
+  overflow: hidden; /
+}
+
+th, td {
+  
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+  background-color:rgb(252, 199, 102);
+  color: rgb(72, 72, 72);
+}
+
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+.page-number-input {
+  width: 40px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
